@@ -6,6 +6,10 @@ __pycache__/
 # Pycharm
 .idea
 
+# Sandbox
+area51
+sandbox
+
 # C extensions
 *.so
 
