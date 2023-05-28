@@ -1,8 +1,8 @@
 import logging
 
-LOGGING_LEVEL = logging.DEBUG
+from .app_config import LOGGER_NAME, LOGGING_LEVEL
 
-logger = logging.getLogger('realtime_sync')
+logger = logging.getLogger(LOGGER_NAME)
 
 # Set the default logging level
 logger.setLevel(LOGGING_LEVEL)
